@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FinancialLiteracy {
+public class FinancialLiteracyProgram {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -117,12 +117,11 @@ public class FinancialLiteracy {
 
     private static void recommendCreditCards(double creditCardDebt, double income) {
         if (creditCardDebt > 0) {
-            System.out.println("1. **Balance Transfer Cards**: Consider using a card with a 0% APR balance transfer offer to save on interest while paying down debt.");
-            System.out.println("2. **Cash Back Cards**: If you spend a lot on groceries or gas, look for cards offering cash back in those categories.");
-            System.out.println("3. **Rewards Cards**: For frequent travelers or diners, choose cards that offer rewards on travel or dining.");
+            System.out.println("1. **Capital One Quicksilver Cash Rewards Credit Card**: Offers 0% APR on balance transfers for the first 15 months, ideal for reducing debt.");
+            System.out.println("2. **Capital One SavorOne Cash Rewards Credit Card**: Provides cash back on dining and entertainment, helping you earn rewards on essential expenses.");
         } else {
-            System.out.println("1. **Cash Back Cards**: Maximize your spending benefits with cards offering cash back on everyday purchases.");
-            System.out.println("2. **Travel Rewards Cards**: Earn points or miles on your purchases if you travel frequently.");
+            System.out.println("1. **Capital One Venture Rewards Credit Card**: Earns miles on every purchase, perfect for travelers.");
+            System.out.println("2. **Capital One Quicksilver Cash Rewards Credit Card**: Offers unlimited 1.5% cash back on all purchases, ideal for everyday spending.");
         }
     }
 }
