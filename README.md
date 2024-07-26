@@ -10,10 +10,3 @@ Goal Setting: Users can set both short-term (within 1 year) and long-term (1-5 y
 Budgeting: The program allows users to input target monthly budgets for various categories, including housing, transportation, groceries, and discretionary spending. It checks if the total budgeted expenses are within the user's income and suggests adjustments if necessary.
 Credit Card Recommendations: Based on the user's credit card debt and spending habits, the program provides tailored recommendations on the types of credit cards to consider, such as balance transfer cards for debt reduction, cash back cards for everyday purchases, and rewards cards for specific spending categories.
 Suggestions: The program offers general financial advice, such as tracking expenses, using high-yield savings accounts, and periodically reviewing and adjusting the budget based on changes in income or expenses.
-
-
-How to Use
-
-Setup: Ensure you have Java Development Kit (JDK) installed on your machine. Use an Integrated Development Environment (IDE) like Visual Studio Code with the necessary Java extensions installed.
-Running the Program: Save the Java code provided into a file named FinancialLiteracyProgram.java. Open this file in your IDE, compile it, and run the program. Follow the prompts to input your financial information and goals.
-Interpreting Results: The program will display your current financial situation and provide recommendations based on your inputs. Use these insights to make informed decisions about your financial planning and goal setting.
